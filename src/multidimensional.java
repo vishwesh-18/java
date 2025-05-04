@@ -10,20 +10,15 @@ public class multidimensional {
                 {7,8,9}
         };
 
-//        System.out.println(arr2.length);
-//        for (int row = 0; row < arr2.length; row++) {
-//
-//            for (int col = 0; col < arr2[row].length; col++) {
-//                System.out.print(arr2[row][col]+" ");
-//            }
-//            System.out.println();
-//
-//        }
-
+        System.out.println(arr2.length);
         for (int row = 0; row < arr2.length; row++) {
-            System.out.println(Arrays.toString(arr2[row]));
+            for (int col = 0; col < arr2[row].length; col++) {
+                System.out.print(arr2[row][col]+" ");
+            }
 
         }
+
+
 
 
     }
